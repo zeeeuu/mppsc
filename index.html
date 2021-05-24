@@ -1,0 +1,832 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+   <title></title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="{base_url}assets/vendors/ti-icons/css/themify-icons.css">
+
+   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+   <style>
+    
+    .faculty-card{
+      transition: all .2s ease-in-out;  
+      
+    }
+
+    .faculty-card:hover{
+             transform: scale(1.05)
+    }
+
+    .faculty-card-container{
+       /*transition:margin-right 0.7s ease 0.7s;*/
+
+        
+         
+    }
+     
+     .video-card{
+      width: 100%; min-height:200px
+     }
+
+     .main-color{
+      color:   #00bfa6
+     }
+
+     .banner-content{
+      transition: margin-left 0.7s ease 0.7s;
+      margin-left:-2000px;
+     }
+
+     .banner-content-animate{
+          margin-left:0px
+     }
+
+     .banner-section{
+       min-height:  100vh ;
+       transition: background-position 0.7s ease;
+
+
+       background-image:url('{base_url}assets/images/certification-tp.png') ; 
+       background-repeat: no-repeat;
+       background-position:  1400px 50px
+     }
+
+     .banner-animate{
+
+      background-position: 500px 50px;
+           
+     }
+
+     .video-content{
+        transition: margin-top 0.7s ease 1.4s;   
+        margin-top: 400px;
+     }
+
+     .video-content-animate{
+
+          margin-top:0px;
+     }
+
+   </style>
+
+ </head> 
+
+ <body style="background: #fcfcfc">
+
+  <header>
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background: transparent !important" >
+  <div class="container">
+    <a class="navbar-brand" href="#">MPPSC Coaching</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <button class="btn btn-sm btn-secondary">Login</button>
+
+          </a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" href="#">
+            <button class="btn btn-sm btn-success text-white" style=" background: #00bfa6 !important">Signup</button>
+
+          </a>
+        </li>
+
+
+ 
+         
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+    </div>
+  </header>
+
+  <main>
+        
+        <section class="banner-section" >
+
+          <div class="container"> 
+          
+          <div class="row">
+
+
+
+            <div class="col-md-6 mt-2">
+                
+
+                <div class="mt-5 ps-3 banner-content">
+                  
+                     <h1><b>Unique Civil Services</b></h1>
+                     <h2>is the best way to success</h2>
+
+                 <div class="pt-1" style="margin-top:30px">
+                  
+                  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequatur, sit laudantium odit accusamus, a, corporis tenetur natus obcaecati deleniti pariatur. Voluptas modi nulla id dolor quas consequatur nihil asperiores?</p>
+                     <button class="btn btn-sm btn-success text-white" style=" background: #00bfa6 !important">Register</button>
+                </div>  
+
+                      
+                </div>
+
+                 
+
+            </div>
+            <div class="col-md-6">
+              
+
+            </div>
+
+
+          </div>
+
+        <div class="video-content">  
+
+          <div class="row mt-5">
+             <div class="col-md-4 col-lg-3 mt-2">
+               <div class="video-card bg-white shadow">
+                 <img  width="100%" height="auto" alt="" src="{base_url}assets/images/video-thumbnail.png">
+                 <h6 class="p-2"><b>Video Title</b></h6>
+               </div>
+             </div>
+             <div class="col-md-4 col-lg-3 mt-2">
+               <div class="video-card bg-white shadow">
+                 <img  width="100%" height="auto" alt="" src="{base_url}assets/images/video-thumbnail.png">
+                 <h6 class="p-2"><b>Video Title</b></h6>
+               </div>
+
+             </div>
+             <div class="col-md-4 col-lg-3 mt-2">
+               <div class="video-card bg-white shadow">
+                 <img  width="100%" height="auto" alt="" src="{base_url}assets/images/video-thumbnail.png">
+                 <h6 class="p-2"><b>Video Title</b></h6>
+               </div>
+             </div>
+             <div class="col-md-4 col-lg-3 mt-2">
+               <div class="video-card bg-white shadow">
+                 <img  width="100%" height="auto" alt="" src="{base_url}assets/images/video-thumbnail.png">
+                 <h6 class="p-2"><b>Video Title</b></h6>
+               </div>
+             </div>
+          </div>
+
+         </div> 
+
+          </div>
+        </section>
+
+
+
+
+        <section style="padding-top: 100px; padding-bottom: 100px">
+
+          <div class="container"> 
+
+            <div class="bg-white p-4 shadow">
+                
+                <div>
+                    <h3><b>Our Best Features</b></h3>
+                </div>
+            
+            
+              <div class="row mt-5">
+                <div class="col-md-3">
+                  
+                  <div class="p-2" data-aos="zoom-in-up">
+                      
+                        <div class="text-center main-color bg-white" style="font-size: 48px">
+                           <!-- <i class="ti-control-record menu-icon"></i>  -->
+
+                            <img src="{base_url}assets/images/live-class.png" alt="" width="100%" height="180px">
+
+                           
+                            
+                        </div>
+
+                        <div>
+                          
+                          <h5>
+                            Live Classes
+                          </h5>
+
+                          <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, explicabo? Dicta fuga ut aliquid exercitationem voluptates assumenda dolores saepe corporis.
+                          </p>
+                        </div>
+ 
+                  </div>
+
+
+                </div>
+
+                <div class="col-md-3">
+                  
+                  <div class="p-2" data-aos="zoom-in-up">
+
+                       <div class="text-center main-color bg-white" style="font-size: 48px">
+                            <!-- <i class="ti-control-play menu-icon"></i> -->
+                            <img src="{base_url}assets/images/video-lectures.png" alt="" width="100%" height="180px">
+
+                       </div>
+
+                       <div class="p-2">
+                          
+                          <h5>
+                            Video Lectures
+                          </h5>
+
+                          <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, explicabo? Dicta fuga ut aliquid exercitationem voluptates assumenda dolores saepe corporis.
+                          </p>
+                        </div>
+ 
+                    
+                  </div>
+
+
+                </div>
+
+
+                <div class="col-md-3">
+                  
+                  <div class="p-2" data-aos="zoom-in-up">
+
+                       <div class="text-center main-color bg-white" style="font-size: 48px">
+                             <!-- <i class="ti-book menu-icon"></i> -->
+                             <img src="{base_url}assets/images/test-series.png" alt="" width="100%" height="180px">
+
+                       </div>
+
+                       <div class="p-2">
+                          
+                          <h5>
+                            Test Series
+
+                          </h5>
+
+                          <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, explicabo? Dicta fuga ut aliquid exercitationem voluptates assumenda dolores saepe corporis.
+                          </p>
+                        </div>
+ 
+                    
+                  </div>
+
+
+                </div>
+
+
+
+                <div class="col-md-3">
+                  
+                  <div class="p-2" data-aos="zoom-in-up">
+
+                       <div class="text-center main-color bg-white" style="font-size: 48px">
+                            <!-- <i class="ti-control-play menu-icon"></i> -->
+                            <img src="{base_url}assets/images/notes.png" alt="" width="100%" height="180px">
+
+                       </div>
+
+                       <div class="pt-2">
+                          
+                          <h5>
+                            Study Material
+                          </h5>
+
+                          <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, explicabo? Dicta fuga ut aliquid exercitationem voluptates assumenda dolores saepe corporis.
+                          </p>
+                        </div>
+ 
+                    
+                  </div>
+
+
+                </div>
+
+
+              </div>
+
+
+
+
+             </div> 
+
+            </div>
+
+        </section>
+
+        <section style="padding-top: 50px; padding-bottom: 100px">
+          
+          <div class="container">
+            
+             <div class="bg-white shadow p-4">
+                 <div class="row">
+
+                  <div class="col-md-6" data-aos="fade-right">
+
+                     <img src="{base_url}assets/images/notebook.png" width="100%" height="auto" alt="">
+
+                   </div>
+
+                   <div class="col-md-6" data-aos="fade-left">
+                     <h3><b>Our Mission</b></h3>
+
+                     <p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Nulla error deserunt, quas ea aspernatur totam, explicabo itaque libero obcaecati non vel mollitia? Sit est inventore laboriosam iure, nulla itaque in blanditiis error molestias officiis autem dicta explicabo perferendis eaque quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nulla fugit, deserunt quaerat voluptatum quae autem repudiandae non nobis? Facilis cumque voluptatem at, aliquam molestias laborum pariatur expedita fuga. Expedita! </p>
+                   </div>
+
+
+                    
+
+
+
+                 </div>
+             </div>
+
+          </div>
+        </section>
+
+        <section>
+           
+           <div class="container">
+
+             <div class="bg-white shadow p-4 ">
+               <h4><b>Our Best Faculties</b></h4>
+
+                 <div class="ps-3 pe-3 mt-5 position-relative" style="width: 100%;overflow: hidden;">
+                   <div id="faculty_card_container" class="faculty-card-container position-relative" style="width:10000px; height:auto">
+                     
+                         <ul class="list-inline">
+                           <li class="list-inline-item p-2 text-center">
+                              <div class="bg-white shadow p-3 faculty-card" style="width:250px; height:350px; cursor:pointer;   ">
+                                  
+                                    <div class="text-center" >
+                                      <img src="{base_url}assets/images/users/profile/default.png" width="100px" height="100px" alt="" class="ms-auto me-auto rounded-circle">
+                                    </div> 
+
+                                    <div  class="text-center mt-2">
+                                         <h5 class="main-color"><b>Lorem Ipsum</b></h5>
+                                         <h6 class="text-muted">- Faculty</h6>
+                                         <p>with 10 yrs of experience in mains</p>
+
+                                    </div>
+
+                               
+
+                            </div>
+
+                           </li>
+
+
+                           <li class="list-inline-item p-2 text-center">
+                             
+                                   <div class="bg-white shadow p-3 faculty-card" style="width:250px; height:350px; cursor:pointer;   ">
+                                  
+                                    <div class="text-center" >
+                                      <img src="{base_url}assets/images/users/profile/default.png" width="100px" height="100px" alt="" class="ms-auto me-auto rounded-circle">
+                                    </div> 
+
+                                    <div  class="text-center mt-2">
+                                         <h5 class="main-color"><b>Lorem Ipsum</b></h5>
+                                         <h6 class="text-muted">- Faculty</h6>
+                                         <p>with 10 yrs of experience in mains</p>
+
+                                    </div>
+
+                               
+
+                            </div>
+
+                           </li>
+                           <li class="list-inline-item p-2 text-center">
+                             
+                                   <div class="bg-white shadow p-3 faculty-card" style="width:250px; height:350px; cursor:pointer;   ">
+                                  
+                                    <div class="text-center" >
+                                      <img src="{base_url}assets/images/users/profile/default.png" width="100px" height="100px" alt="" class="ms-auto me-auto rounded-circle">
+                                    </div> 
+
+                                    <div  class="text-center mt-2">
+                                         <h5 class="main-color"><b>Lorem Ipsum</b></h5>
+                                         <h6 class="text-muted">- Faculty</h6>
+                                         <p>with 10 yrs of experience in mains</p>
+
+                                    </div>
+
+                               
+
+                            </div>
+
+                           </li>
+
+
+
+                           <li class="list-inline-item p-2 text-center">
+                             
+                                   <div class="bg-white shadow p-3 faculty-card" style="width:250px; height:350px; cursor:pointer;   ">
+                                  
+                                    <div class="text-center" >
+                                      <img src="{base_url}assets/images/users/profile/default.png" width="100px" height="100px" alt="" class="ms-auto me-auto rounded-circle">
+                                    </div> 
+
+                                    <div  class="text-center mt-2">
+                                         <h5 class="main-color"><b>Lorem Ipsum</b></h5>
+                                         <h6 class="text-muted">- Faculty</h6>
+                                         <p>with 10 yrs of experience in mains</p>
+
+                                    </div>
+
+                               
+
+                            </div>
+
+                           </li>
+
+
+
+                           <li class="list-inline-item p-2 text-center">
+                             
+                                   <div class="bg-white shadow p-3 faculty-card" style="width:250px; height:350px; cursor:pointer;   ">
+                                  
+                                    <div class="text-center" >
+                                      <img src="{base_url}assets/images/users/profile/default.png" width="100px" height="100px" alt="" class="ms-auto me-auto rounded-circle">
+                                    </div> 
+
+                                    <div  class="text-center mt-2">
+                                         <h5 class="main-color"><b>Lorem Ipsum</b></h5>
+                                         <h6 class="text-muted">- Faculty</h6>
+                                         <p>with 10 yrs of experience in mains</p>
+
+                                    </div>
+
+                               
+
+                            </div>
+
+                           </li>
+
+
+
+
+                           <li class="list-inline-item p-2 text-center">
+                             
+                                   <div class="bg-white shadow p-3 faculty-card" style="width:250px; height:350px; cursor:pointer;   ">
+                                  
+                                    <div class="text-center" >
+                                      <img src="{base_url}assets/images/users/profile/default.png" width="100px" height="100px" alt="" class="ms-auto me-auto rounded-circle">
+                                    </div> 
+
+                                    <div  class="text-center mt-2">
+                                         <h5 class="main-color"><b>Lorem Ipsum</b></h5>
+                                         <h6 class="text-muted">- Faculty</h6>
+                                         <p>with 10 yrs of experience in mains</p>
+
+                                    </div>
+
+                               
+
+                            </div>
+
+                           </li>
+
+
+
+                           <li class="list-inline-item p-2 text-center">
+                             
+                                   <div class="bg-white shadow p-3 faculty-card" style="width:250px; height:350px; cursor:pointer;   ">
+                                  
+                                    <div class="text-center" >
+                                      <img src="{base_url}assets/images/users/profile/default.png" width="100px" height="100px" alt="" class="ms-auto me-auto rounded-circle">
+                                    </div> 
+
+                                    <div  class="text-center mt-2">
+                                         <h5 class="main-color"><b>Lorem Ipsum</b></h5>
+                                         <h6 class="text-muted">- Faculty</h6>
+                                         <p>with 10 yrs of experience in mains</p>
+
+                                    </div>
+
+                               
+
+                            </div>
+
+                           </li>
+                         </ul>
+
+
+                   </div>
+                 </div>
+
+
+                 <div class="row mt-3">
+                 
+                 <div class="col-12">
+                   <div class="text-center">
+                       
+                        <span id="left_slide" class="main-color " style="font-size: 36px; cursor: pointer">
+                           <
+                        </span>   &nbsp; &nbsp; &nbsp; &nbsp; 
+                        <span id="right_slide" class=" main-color" style=" font-size: 36px; cursor: pointer">
+                          >
+                        </span> 
+                   </div>
+                 </div>
+
+               </div>
+
+
+
+
+
+               
+              <!--  <div class="mt-5 p-3">
+                 
+                  <div class="row">
+                    
+                    <div class="col-md-3">
+
+                            <div class="bg-white shadow p-3 faculty-card" style="width:100%; height:250px; cursor:pointer; transition: all .2s ease-in-out;  transform: scale(1.15) ">
+                                  
+                                    <div class="text-center" >
+                                      <img src="{base_url}assets/images/users/profile/default.png" width="100px" height="100px" alt="" class="ms-auto me-auto rounded-circle">
+                                    </div> 
+
+                                    <div  class="text-center mt-2">
+                                         <h5><b>Lorem Ipsum</b></h5>
+                                         <h6 class="text-muted">- Faculty</h6>
+                                         <p>with 10 yrs of experience in mains</p>
+
+                                    </div>
+
+                               
+
+                            </div>
+                    </div>
+
+
+                    <div class="col-md-3">
+                         
+                            <div class="bg-white shadow p-3 faculty-card" style="width:100%; height:250px">
+                                  
+                                    <div class="text-center" >
+                                      <img src="{base_url}assets/images/users/profile/default.png" width="100px" height="100px" alt="" class="ms-auto me-auto rounded-circle">
+                                    </div> 
+
+                                    <div  class="text-center mt-2">
+                                         <h5><b>Lorem Ipsum</b></h5>
+                                         <h6 class="text-muted">- Faculty</h6>
+                                         <p>with 10 yrs of experience in mains</p>
+
+                                    </div>
+
+                               
+
+                            </div>  
+
+
+                    </div>
+
+
+                    <div class="col-md-3">
+                         
+                            <div class="bg-white shadow p-3 faculty-card" style="width:100%; height:250px">
+                                  
+                                    <div class="text-center" >
+                                      <img src="{base_url}assets/images/users/profile/default.png" width="100px" height="100px" alt="" class="ms-auto me-auto rounded-circle">
+                                    </div> 
+
+                                    <div  class="text-center mt-2">
+                                         <h5><b>Lorem Ipsum</b></h5>
+                                         <h6 class="text-muted">- Faculty</h6>
+                                         <p>with 10 yrs of experience in mains</p>
+
+                                    </div>
+
+                               
+
+                            </div>
+
+                    </div>
+
+
+                    <div class="col-md-3">
+                        
+                           <div class="bg-white shadow p-3 faculty-card" style="width:100%; height:250px">
+                                  
+                                    <div class="text-center" >
+                                      <img src="{base_url}assets/images/users/profile/default.png" width="100px" height="100px" alt="" class="ms-auto me-auto rounded-circle">
+                                    </div> 
+
+                                    <div  class="text-center mt-2">
+                                         <h5><b>Lorem Ipsum</b></h5>
+                                         <h6 class="text-muted">- Faculty</h6>
+                                         <p>with 10 yrs of experience in mains</p>
+
+                                    </div>
+
+                               
+
+                            </div>   
+
+
+
+                    </div>
+
+
+                  </div>
+                   
+
+               </div>
+                -->
+
+               <!-- <div class="row mt-3">
+                 
+                 <div class="col-12">
+                   <div class="text-center">
+                       
+                        <span class=" " style="color:purple; font-size: 36px; cursor: pointer">
+                           <
+                        </span>   &nbsp; &nbsp; &nbsp; &nbsp; 
+                        <span class=" " style="color:purple; font-size: 36px; cursor: pointer">
+                          >
+                        </span> 
+                   </div>
+                 </div>
+
+               </div> -->
+
+             </div>
+
+             
+          
+           </div>
+
+        </section>
+    
+  </main>
+
+  <footer class="bg-white p-5" style="margin-top: 100px">
+    
+
+     <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+           <h5>
+            <a href="{base_ur}" class="text-decoration-none">
+              
+              <span class="text-uppercase text-secondary"><b>{site_title}</b></span> </a> 
+           </h5>
+           <p class=" mt-4">
+            {site_description} Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sed, iusto ipsa maxime!
+             
+           </p>
+
+           <p class="pt-4 ">
+                         <a href="#" class="foot-social-links text-decoration-none  text-secondary"><span class="fa fa-facebook"></span></a>&nbsp;&nbsp;
+                         <a href="#" class="foot-social-links text-secondary text-decoration-none "><span class="fa fa-twitter"></span></a>&nbsp;&nbsp;
+                         <a href="#" class="foot-social-links text-secondary text-decoration-none "><span class="fa fa-instagram"></span></a>&nbsp;&nbsp;
+                         <a href="" class="foot-social-links text-secondary text-decoration-none "><span class="fa fa-linkedin"></span></a>
+          </p>
+        </div>
+        
+        <div class="col-12 col-md-4">
+          
+          <div class="ml-auto mr-auto" style="width: 150px"> 
+           <a href="{base_url}" class="footer-links d-block p-1 text-uppercase  text-decoration-none  ">home <span class="fa fa-angle-double-right"></span></a>
+
+           <a href="{base_url}about" class="footer-links d-block p-1 text-uppercase  text-decoration-none   ">about us <span class="fa fa-angle-double-right"></span></a>
+
+           <a href="{base_url}features" class="footer-links d-block p-1 text-uppercase  text-decoration-none  ">Features <span class="fa fa-angle-double-right"></span></a>
+
+           <a href="{base_url}plans" class="footer-links d-block p-1 text-uppercase  text-decoration-none  ">Plans <span class="fa fa-angle-double-right"></span></a>
+           
+           <a data-for="signup" href="{base_url}contact" class="footer-links d-block p-1 text-uppercase  text-decoration-none form ">contact us <span class="fa fa-angle-double-right"></span></a>
+           <a data-for="login" href="{base_url}register/form" class="footer-links d-block p-1 text-uppercase text-white text-decoration-none form ">Signup <span class="fa fa-angle-double-right"></span></a>
+           <a data-for="login" href="{base_url}user/user_login" class="footer-links d-block p-1 text-uppercase text-white text-decoration-none form ">Login <span class="fa fa-angle-double-right"></span></a>
+          </div> 
+        </div>
+
+        <div class="col-12 col-md-4">
+
+          <div>
+            <h5 class="text-secondary"><span class="fa fa-envelope"></span> Mail Us</h5>
+            <p class="text-muted">mppsc@gmail.com</p>
+          </div>
+
+
+          <div class="mt-4">
+            <h5 class="text-secondary"><span class="fa fa-phone"></span> Call Us</h5>
+            <p class="text-muted">1800 4785 1258</p>
+          </div>
+
+          <div>
+               
+  
+          </div>
+             
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center  p-2 pt-4">
+              <a href="{base_url}terms">Terms Of Service</a> | <a href="{base_url}policy">Privacy Policy</a>
+          </p>
+        </div>
+       </div>
+           
+       <div class="row">
+        <div class="col-12">
+          <p class="text-center text-white p-2 pt-4">
+             © {year}, {site_title} - All rights reserved.
+          </p> 
+        </div>
+       </div>
+      
+    </div>  
+
+    
+  </footer>
+
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+ <script>
+
+  function getpx(pixel){
+     
+     return +pixel.substr(0,pixel.length-2);
+  }
+
+
+
+    $(document).ready(function(){
+      var faculty=7;
+
+
+
+       $('.banner-section').addClass('banner-animate');
+       //banner-content
+       $('.banner-content').addClass('banner-content-animate');
+
+       $('.video-content').addClass('video-content-animate');
+       
+       AOS.init();
+
+       $('#left_slide').click(function(){
+
+       // $('.faculty-card-container').css({});
+
+        $("#faculty_card_container").animate({left: '250px'});
+            
+       });
+
+       $('#right_slide').click(function(){
+          
+              
+           $("#faculty_card_container").animate({right: '250px'});
+
+       });
+
+
+
+    });
+ </script>
+
+ </body>
+ </html>
